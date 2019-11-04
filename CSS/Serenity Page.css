@@ -1,0 +1,895 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.Container{
+    background-color: black;
+}
+
+nav{
+    background-image: url(../Images/bg-hero.jpg);
+    width: 90%;
+    height: 80vh;
+    background-size: cover;
+    margin-left: 05%;
+    background-color: gray;
+    background-blend-mode: multiply;
+}
+
+.Logo{
+    display: inline-block;
+    font-size: 10pt;
+    color: white;
+    padding-left: 40px;
+    margin-left: 20px;
+}
+
+.Logo2{
+    float: right;
+    margin-right: 850px;
+    margin-top: -18px;
+}
+.Logo2 p{
+    color: blue;
+    font-size: 14px;
+}
+.nav-links{
+    float: right;
+    padding-right: 40px;
+    margin-top: -20px;
+}
+
+.nav-links li{
+    display: inline;
+    padding-right: 10px;
+}
+
+.nav-links li a{
+    color: white;
+    text-decoration: none;
+    font-size: 10pt;
+    padding: 5px;
+}
+
+.nav-content{
+    padding-top: 20px;
+}
+
+.header-content{
+    text-align: center;
+    margin-top: 90px;
+    color: white;
+}    
+
+.header-content h3{
+    font-size: 30px;
+    padding-top: 55px;
+}
+
+.header-content h6{
+    font-size: 25px;
+    padding-top: 15px;
+}
+
+.header-content p{
+    font-size: 15px;
+    padding-top: 25px;
+}
+
+.button1{
+    background-color: white;
+    color: black;
+    width: 150px;
+    height: 55px;
+    border: 1px solid white;
+    margin-top: 50px;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+.button2{
+    background-color: blue;
+    color: white;
+    width: 200px;
+    height: 55px;
+    border: 1px solid blue;
+    margin-top: 50px;
+    border-radius: 25px;
+    margin-left: 10px;
+}
+.button3{
+    background-color:black;
+    color: white;
+    width: 220px;
+    height: 40px;
+    border: 1px solid black;
+    margin-top: 10px;
+    border-radius: 30px;
+    margin-right: 900px;
+}
+
+
+
+
+
+
+.First-section{
+    background-color: whitesmoke;
+    width: 90%;
+    height: auto;
+    background-size: cover;
+    margin-left: 05%;
+}
+
+.First-sectionC{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.First-sectionC h2{
+    font-size: 33px;
+}
+
+.First-sectionC p{
+    color: rgb(0, 162, 255);
+    font-size: 17px;
+}
+
+.Card-flex{
+    display: flex;
+    padding-left: 200px;
+}
+
+.card{
+    width: 25%;
+    height: auto;
+    background-color: white;
+    margin-top: 50px;
+    border: 1px solid grey;
+    box-shadow: 2px 2px 2px  rgb(160, 159, 159);
+    line-height: 1.5;
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+.card-body h3{
+    font-size: 14px;
+    text-align: center;
+}
+.card-body p{
+    color: black;
+    font-size: 14px;
+    text-align: center;
+}
+
+.card-image img{
+    width: 30%;
+    height: 50px;
+    padding-top: 10px;
+}
+
+.card2{
+    width: 25%;
+    height: auto;
+    background-color: white;
+    margin-top: 50px;
+    border: 1px solid grey;
+    box-shadow: 2px 2px 2px  rgb(160, 159, 159);
+    line-height: 1.5;
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+
+.card3{
+    width: 25%;
+    height: auto;
+    background-color: white;
+    margin-top: 50px;
+    border: 1px solid grey;
+    box-shadow: 2px 2px 2px  rgb(160, 159, 159);
+    line-height: 1.5;
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+.Second-sectionC{
+    text-align: center;
+    padding-top: 150px;
+}
+
+.Second-sectionC h2{
+    font-size: 33px;
+}
+
+.Second-sectionC p{
+    color: rgb(0, 162, 255);
+    font-size: 17px;
+}
+
+.Second-sectionPara{
+    margin-top: 80px;
+}
+.Second-sectionPara p{
+    color: black;
+    text-align: justify;
+    width: 1050px;
+    padding-left: 100px;
+}
+
+
+
+.Third-section{
+    text-align: center;
+    padding-top: 150px;
+}
+
+.Third-section h2{
+    font-size: 33px;
+}
+
+.Third-section p{
+    color: rgb(0, 162, 255);
+    font-size: 17px;
+}
+
+.Card-flex2{
+    display: flex;
+    margin-left: 30px;
+    padding: 60px;
+}
+
+.card-T1{
+    width: 30%;
+    height: auto;
+    background-color: white;
+    margin-top: 50px;
+    border: 1px solid whitesmoke;
+    box-shadow: 2px 2px 2px whitesmoke;
+    line-height: 1.5;
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+.cardT1-image, img{
+    width: 100%;
+    height: 300px;
+}
+
+.card-T2{
+    width: 30%;
+    height: auto;
+    background-color: white;
+    margin-top: 50px;
+    border: 1px solid whitesmoke;
+    box-shadow: 2px 2px 2px whitesmoke;
+    line-height: 1.5;
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+.cardT2-image img{
+    width: 100%;
+    height: 300px;
+}
+
+.card-T3{
+    width: 30%;
+    height: auto;
+    background-color: white;
+    margin-top: 50px;
+    border: 1px solid whitesmoke;
+    box-shadow: 2px 2px 2px whitesmoke;
+    line-height: 1.5;
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+.cardT3-image img{
+    width: 100%;
+    height: 300px;
+} 
+
+.card-body h3, p{
+    padding-top: 20px;
+}
+.card-body p{
+    color: rgb(0, 195, 255);
+}
+
+.social-1{
+    display: flex;
+    margin-left: 50px;
+    padding-top: 20px;
+}
+.social-1 img{
+    width: 17%;
+    height: 25px;
+    padding-left: 10px;
+}
+.social-2{
+    display: flex;
+    margin-left: 50px;
+    padding-top: 20px;
+}
+.social-2 img{
+    width: 17%;
+    height: 25px;
+    padding-left: 10px;
+}
+.social-3{
+    display: flex;
+    margin-left: 50px;
+    padding-top: 20px;
+}
+.social-3 img{
+    width: 17%;
+    height: 25px;
+    padding-left: 10px;
+}
+
+
+
+
+
+
+.Fourth-section{
+    background-color: rgb(245, 8, 138);
+    width: 90%;
+    height: auto;
+    background-size: cover;
+    margin-left: 05%;
+}
+
+.Fourth-sectionC{
+    text-align: center;
+    padding-top: 70px;
+    color: whitesmoke;
+}
+
+.FCard-flex3{
+    display: flex;
+    margin-left: 30px;
+    padding: 40px;
+}
+
+.cardF1{
+    width: 30%;
+    height: auto;
+    background-color: white;
+    margin-top: 50px;
+    border: 1px solid whitesmoke;
+    line-height: 1.5;
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+.Fcard-image4 img{
+    width: 40%;
+    height: 40px;
+    margin-right: 270px;
+    padding-top: 20px;
+}
+
+.cardF2{
+    width: 30%;
+    height: auto;
+    background-color: white;
+    margin-top: 50px;
+    border: 1px solid whitesmoke;
+    line-height: 1.5;
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+.Fcard-image6 img{
+    width: 40%;
+    height: 40px;
+    margin-right: 270px;
+    padding-top: 20px;
+}
+
+.cardF3{
+    width: 30%;
+    height: auto;
+    background-color: white;
+    margin-top: 50px;
+    border: 1px solid whitesmoke;
+    line-height: 1.5;
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+.Fcard-image8 img{
+    width: 40%;
+    height: 40px;
+    margin-right: 270px;
+    padding-top: 20px;
+}
+
+.Abt-image{
+    display: inline-block;
+    padding-right: -40px;
+}
+
+.Abt-image img{
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    margin-right: 80px;
+}
+
+.Abt-text{
+    float: right;
+    position: relative;
+    right: 125px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Abt-text p{
+    margin-top: -25px;
+    padding-left: 20px;
+}
+
+.Para3{
+    font-size: 12px;
+    padding-right: 70px;
+}
+
+
+
+
+
+.Fifth-section{
+    background-color: whitesmoke;
+    width: 90%;
+    height: auto;
+    background-size: cover;
+    margin-left: 05%;
+}
+
+.Fifth-sectionC{
+    text-align: center;
+    padding-top: 80px;
+}
+.Fifth-sectionPara{
+    margin-top: 70px;
+}
+.Fifth-sectionPara p{
+    text-align: justify;
+    width: 1050px;
+    padding-left: 100px;
+}
+
+.Card5-flex4{
+    display: flex;
+    margin-left: 30px;
+    padding: 40px;
+}
+
+.Fifcard1{
+    width: 30%;
+    height: auto;
+    background-color: white;
+    margin-top: 50px;
+    border: 1px solid whitesmoke;
+    line-height: 1.5;
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+
+.Fifcard-body, h3, p{
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+.Fifcard2{
+    width: 30%;
+    height: auto;
+    background-color: white;
+    margin-top: 50px;
+    border: 1px solid whitesmoke;
+    line-height: 1.5;
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+
+.Fifcard3{
+    width: 30%;
+    height: auto;
+    background-color: white;
+    margin-top: 50px;
+    border: 1px solid whitesmoke;
+    line-height: 1.5;
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+
+.Fifcard-image{
+    margin-top: -20px;
+}
+
+.Fifcard-body button{
+    border: 1px solid rgb(0, 119, 255);
+    color: rgb(0, 119, 255);
+    width: 130px;
+    height: 45px;
+    margin-top: 20px;
+}
+
+
+
+
+
+.Sixth-sectionC{
+    padding-top: 70px;
+    text-align: center;
+}
+
+.Sixth-sectionC p{
+    color: rgb(0, 162, 255);
+    padding-bottom: 60px;
+}
+
+.Sixth-sectionGala{
+    display: flex;
+}
+.Sixth-sectionGala img{
+    width: 25%;
+    height: 200px;
+}
+
+
+
+
+
+.Seventh-sectionC{
+    padding-top: 70px;
+    text-align: center;
+}
+
+.Seventh-sectionC p{
+    color: rgb(0, 162, 255);
+}
+
+.SeventhC-img{
+    display: flex;
+    margin-left: 100px;
+    padding-top: 50px;
+}
+
+.SeventhC-img img{
+    width: 10%;
+    height: 50px;
+    margin-left: 50px;
+}
+
+.SeventhC-dot{
+    padding-bottom: 50px;
+}
+
+.SeventhC-dot p{
+    text-align: center;
+    color: rgb(88, 85, 85);
+    font-size: 30px;
+    margin-left: 100px;
+}
+
+
+
+
+.Eight-sectionC{
+    background-image: url(../Images/bg-cta.jpg);
+    width: 90%;
+    height: 50vh;
+    background-size: cover;
+    margin-left: 05%;
+    background-color: rgb(47, 47, 206);
+    background-blend-mode: multiply;
+    padding-top: 50px;
+}
+
+.Eight-sectionC1{
+    display: inline-block;
+    margin-left: 100px;
+    padding-top: 80px;
+
+}
+.Eight-sectionC1 h4{
+    color: white;
+    font-size: 40px;
+}
+.Eight-sectionC1 p{
+    color: white;
+    font-size: 15px;
+}
+
+.Eight-sectionC2{
+    float: right;
+    margin-right: 150px;
+    padding-top: 90px;
+    text-align: center;
+}
+.Eight-sectionC2 p{
+    color: white;
+    font-size: 12px;
+}
+.Eight-sectionC2 button{
+    background-color: rgb(47, 47, 206);
+    color: white;
+    width: 200px;
+    height: 55px;
+    border: 1px solid white;
+    margin-top: 10px;
+    border-radius: 25px;
+}
+
+
+
+
+
+
+.Nineth-section{
+    background-color: whitesmoke;
+    width: 90%;
+    height: auto;
+    background-size: cover;
+    margin-left: 05%;
+    padding-top: 50px;
+}
+
+.Nineth-sectionC{
+    text-align: center;
+}
+
+.Nineth-sectionC p{
+    color: rgb(0, 162, 255);
+}
+
+.Card9-flex5{
+    display: flex;
+    margin-left: 30px;
+    padding: 40px;
+}
+.Nintcard1{
+    width: 30%;
+    height: auto;
+    background-color: white;
+    margin-top: 50px;
+    border: 1px solid whitesmoke;
+    line-height: 1.5;
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+
+.Nintcard-body9, h3, p{
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+.Nintcard2{
+    width: 30%;
+    height: auto;
+    background-color: white;
+    margin-top: 50px;
+    border: 1px solid whitesmoke;
+    line-height: 1.5;
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+
+.Nintcard3{
+    width: 30%;
+    height: auto;
+    background-color: white;
+    margin-top: 50px;
+    border: 1px solid whitesmoke;
+    line-height: 1.5;
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+
+.Nintcard-image9{
+    margin-top: -20px;
+}
+
+.Client-image{
+    display: inline-block;
+}
+
+.Client-image img{
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    margin-right: 70px;
+    margin-top: 10px;
+}
+
+.Client-text{
+    float: right;
+    position: relative;
+    right: 70px;
+}
+
+.Nint-Text p{
+    color: blue;
+    margin-right: 250px;
+    font-size: 10px;
+}
+.Client p{
+    font-size: 13px;
+    margin-left: 3px;
+}
+
+.Nint-btn{
+    background-color: whitesmoke;
+    color: blue;
+    width: 120px;
+    height: 30px;
+    border: 1px solid blue;
+    margin-left: 550px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+.Tenth-sectionC{
+    background-color: rgb(176, 216, 218);
+    width: 90%;
+    height: 30vh;
+    background-size: cover;
+    margin-left: 05%;
+    padding-top: 50px;
+    display: flex;
+}
+
+.Tenth-sectionC1{
+    width: 35%;
+    padding-top: 40px;
+    padding-left: 150px;
+}
+.Tenth-sectionC1 h4{
+    font-size: 40px;
+}
+
+.Tenth-sectionC2{
+    width: 35%;
+    text-align: center;
+    padding-top: 20px;
+}
+.Tenth-sectionC2 p{
+    color: rgb(8, 128, 197);
+}
+
+.Tenth-sectionC3{
+    width: 35%;
+    padding-top: 40px;
+}
+.Tenth-sectionC3 input{
+    width: 180px;
+    height: 45px;
+}
+.Tenth-sectionC3 button{
+    width: 95px;
+    height: 45px;
+    background-color: #ff0000;
+    color: white;
+    border-radius: 2px red;
+    margin-right: 10px;
+}
+
+
+
+
+
+.Eleventh-section{
+    background-color: rgb(39, 2, 39);
+    width: 90%;
+    height: 130vh;
+    background-size: cover;
+    margin-left: 05%;
+    padding-top: 50px;
+}
+
+.Form{
+    display: inline-block;
+    color: white;
+    padding-left: 80px;
+    font-size: 12px;
+}
+
+.Form form input{
+    width: 60%;
+    padding-top: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.Form form div{
+    margin-top: 20px;
+}
+
+.Form h3{
+    padding-bottom: 20px;
+    font-size: 26px;
+}
+
+.Form button{
+    width:70px;
+    height: 33px;
+    border-radius: 2px;
+    margin-bottom: 50px;
+}
+
+.Reach-Us{
+    float: right;
+    width: 30%;
+    color: white;
+    padding-top: 30px;
+    font-size: 15px;
+}
+
+.Reach-Us h6{
+    font-size: 17px;
+    margin-bottom: -17px;
+}
+
+.Our-socialM{
+    padding-top: 150px;
+    text-align: center;
+}
+
+.Our-socialM img{
+    width: 03%;
+    height: 25px;
+    margin-left: 30px;
+}
+
+
+
+
+.Foot{
+    background-color: rgb(19, 1, 19);
+    width: 90%;
+    height: 50px;
+    background-size: cover;
+    margin-left: 05%;
+}
+
+.Foot p{
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 25px;
+}
